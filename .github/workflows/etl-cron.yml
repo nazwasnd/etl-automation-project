@@ -5,8 +5,8 @@ on:
   schedule:
     # Berjalan otomatis setiap hari pukul 02:00 Pagi UTC (Waktu Server)
     - cron: '0 2 * * *'
-# Memungkinkan juga dijalankan secara manual lewat tombol di web GitHub
-workflow_dispatch:
+  # Memungkinkan juga dijalankan secara manual lewat tombol di web GitHub
+  workflow_dispatch:
 
 jobs:
   run-etl:
